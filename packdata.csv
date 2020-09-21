@@ -1,0 +1,14 @@
+Φροντιστήρια_id,field,price,success_rate,city,street,street_number,description
+1,Health,200,56,Αθήνα,Κυψέλης,22,"μαθήματα υγείας"
+1,Sciences,250,77,Αθήνα,Κυψέλης,24,"μαθήματα θετικής"
+1,Sciences,300,90,Αθήνα,Δεληγιάννη,3,NULL
+1,Health,300,89,Αθήνα,Πανόρμου,55,NULL
+2,Humanitarian,320,89,Αθήνα,Σαρανταπόρου,17,NULL
+2,EconomicsAndInformation,280,95,Αθήνα,Ελικώνος,88,NULL
+3,Humanitarian,200,69,Λάρισα,Μιαούλη,15,NULL
+4,Sciences,450,77,Θεσσαλονίκη,Ευρυβιάδου,10,NULL
+4,EconomicsAndInformation,400,70,Θεσσαλονίκη,"Αγίας Τριάδος",11,NULL
+5,Sciences,600,87,Πάτρα,Πηγάσου,33,NULL
+5,Humanitarian,550,88,Πάτρα,Πηγάσου,33,NULL
+7,Sciences,140,80,Athens,Perikleous,32,NULL
+7,Humanitarian,300,89,Athens,"Amedeou Chan",10,NULL
