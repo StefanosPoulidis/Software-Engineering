@@ -1,13 +1,14 @@
-# PriceSniper
+# Frontistirias (2015)
 
-## Μέλη της ομάδας
+This was the main project for the course of Software Engineering, given to teams of 3.
 
-  **Αρμενιάκος Σπυρίδων**  03115722
+Our choice was to create a web platform, accompanied by an Android & an iOS app that includes and showcases all the Greek educational institutes.
 
-  **Βουτσάς Χρήστος**  03114825
+Main Features:
 
-  **Καραμαλέγκος Ηλίας**  03112030
+-Find and show (with GEOJSON) on map all the educational institutes
+-Book a tour
+-Find information about them
 
-  **Καραπαναγιώτης Ευστράτιος**  03115177
-  
-  **Πουλίδης Στέφανος** 03114059
+
+
