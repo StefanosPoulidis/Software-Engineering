@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet"
+   type = "text/css"
+   href = "mystyle.css" />
+    <script src="jquery-3.3.1.js"></script>
+    <script src="scripts.js"></script>
+	
+  </head>
+    <body id="toppage">
+        <ul class="navbar" style="position: sticky; top: 8px;">
+          <li class="navbar"><a class="active" href="#home">Home</a></li>
+          <li class="navbar"><a href="#contact">Contact</a></li>
+          <li class="navbar"><a href="#about">About</a></li>
+          <li class="navbar" style="float: right;"><a href="#about">Login/Signup (Shopkeepers)</a></li>
+        </ul>
+        <div id="fieldList" style="position: sticky; top: 100px; text-align: justify; z-index: 2">
+          <form id="frm0" onsubmit="return false;" action="#" method="post">
+            <locationBar><input type="text" name="location" placeholder="Please type your location.."></locationBar><br><br>
+			<div class ="distanceBar"><i>Σε τί μέγιστη απόσταση (meters) θέλετε να ψάξουμε;</i><br><input type="number" name="distance" min=1 max=5000 ></div><br><br>
+            <input type="checkbox" name="field" value="Ανθρωπιστικής"> Πεδίο Ανθρωπιστικής
+            <input type="checkbox" name="field" value="Υγείας"> Πεδίο Υγείας
+            <input type="checkbox" name="field" value="Θετικής"> Πεδίο Θετικής
+            <input type="checkbox" name="field" value="Οικονομίας και Πληροφορικής"> Πεδίο Οικονομίας και Πληροφορικής<br>
+			<div class="submit_wrapper">
+				<button id="submit_btn" value="Έτοιμος!" style="align: center" form="frm0">
+			</div> 
+		  </form>
+		  
+        </div>
+		
+        <div style="position: fixed; margin: 220px 200px;">
+          <p style="color: white; text-align: center; font-size: 3em; font-style: italic; font-weight: bold; text-shadow: -2px 2px 3px black;"> Ο καλύτερος οδηγός φροντιστηρίων </p>
+        </div>
+        <div style="position: fixed; margin: 380px 200px;">
+          <p style="color: white; text-align: center; font-size: 1em; font-style: italic; font-weight: normal; text-shadow: -2px 2px 3px black;"> Εδώ θα βρέις την καλύτερη προσφορά για φροντιστήρια που να προσαρμόζεται αποκλειστικά στις δικές σου ανάγκες </p>
+		</div>
+		<div id="map" style="height: 600px; width: 60%; margin-top: 50%; margin-bottom: 10%; margin-left: auto; margin-right: auto; border: 3px solid rgba(0, 0, 0, 0.6); box-shadow: -5px 6px 7px black"></div>
+		<script async defer src="google_maps.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlqmOZ4mLjS5sV22U_zFG9MITQ6LpIGLM&libraries=places&callback=initMap&language=el&region=GR"></script>
+		
+   	</body>
+</html>

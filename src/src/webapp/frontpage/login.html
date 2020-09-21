@@ -1,0 +1,111 @@
+<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet"
+   type = "text/css"
+   href = "mystyle.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="scripts.js"></script>
+	
+  </head>
+    <body id="toppage" action="" method="get">
+        <ul class="navbar" style="position: sticky; top: 8px;">
+          <li class="navbar"><a class="active" href="#home">Home</a></li>
+          <li class="navbar"><a href="#contact">Contact</a></li>
+          <li class="navbar"><a href="#about">About</a></li>
+        </ul>
+
+<link href="css/login.css" rel="stylesheet">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="vendor/jquery/login.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-6">
+								<a href="#" class="tablinks" id="login-form-link" onclick="chooseTab(event,'1')">Login</a>
+							</div>
+							<div class="col-xs-6">
+								<a href="#" class="tablinks" id="register-form-link" onclick="chooseTab(event,'2')">Register</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="tabcontent" id="1">
+									<form id="login-form" action="https://pricesniper.com/users" method="post" name="login" role="form" style="display: block;" >
+										<!--form get, kati me "https://pricesniper.com/users/{id}" h href= "PAGE OF USER" me get "https://pricesniper.com/users/{id}-->
+										<div class="form-group" style="display: block;">
+											<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+										</div>
+										<div class="form-group" style="display: block;">
+											<input type="password" data-minlength="6" class="form-control" id="password" placeholder="Password" required>
+										    <div class="help-block"> <font color="yellow">Minimum of 6 characters</div>
+										</div>
+										<div class="form-group text-center">
+											<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+											<label for="remember"> Remember Me</label>
+										</div>
+										<div class="form-group" style="display: block;">	
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-3">
+													<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-lg-12">
+													<div class="text-center">
+														<a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="tabcontent" id="2">
+									<form id="register-form" action="https://pricesniper.com/users" method="post" name="registration" role="form" style="display: block;" >
+										<div class="form-group" style="display: block;">
+											<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+										</div>
+										<div class="form-group" style="display: block;">
+											<input type="email" class="form-control" id="email_address" placeholder="Email Address" data-error="Bruh, that email address is invalid" required>
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group" style="display: block;">
+	        								<input type="password" data-minlength="6" class="form-control" id="password" placeholder="Password" required>
+											<div class="help-block">Minimum of 6 characters</div>
+										</div>
+										<div class="form-group" style="display: block;">
+											<input type="password" class="form-control" id="c_password" data-match="#password" data-match-error="Whoops, these don't match" placeholder="Confirm Password" required>
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group" style="display: block;">	
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-3">
+													<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-login" value="Register">
+												</div>
+											</div>
+										</div>
+											        
+								</div>
+									</form>		     
+											   
+											
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
